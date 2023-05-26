@@ -1,0 +1,20 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "TODO Plugin (service auth)",
+  "name_for_model": "todo",
+  "description_for_human": "Plugin for managing a TODO list, you can add, remove & view TODOs.",
+  "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+  "auth": {
+    "type": "service_http",
+    "authorization_type": "bearer",
+    "verification_tokens": { "openai": "fb5d77e6ddc549f6b2bf115db8be2bff" }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://todo-plugin.herokuapp.com/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://todo-plugin.herokuapp.com/logo.png",
+  "contact_email": "support@https://todo-plugin.herokuapp.com",
+  "legal_info_url": "https://todo-plugin.herokuapp.com/legal"
+}
