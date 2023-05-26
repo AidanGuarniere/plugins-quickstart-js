@@ -1,7 +1,7 @@
 {
-  "name": "my-todo-plugin",
+  "name": "js-plugin-template",
   "version": "1.0.0",
-  "description": "A simple to-do list plugin for ChatGPT",
+  "description": "A simple plugin template for ChatGPT writting in JavaScript",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

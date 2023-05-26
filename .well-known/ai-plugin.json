@@ -1,20 +1,20 @@
 {
   "schema_version": "v1",
-  "name_for_human": "TODO Plugin (service auth)",
-  "name_for_model": "todo",
-  "description_for_human": "Plugin for managing a TODO list, you can add, remove & view TODOs.",
-  "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+  "name_for_human": "Plugin (service auth)",
+  "name_for_model": "plugin",
+  "description_for_human": "Plugin template for doing things.",
+  "description_for_model": "Plugin template for doing things.",
   "auth": {
     "type": "service_http",
     "authorization_type": "bearer",
-    "verification_tokens": { "openai": "fb5d77e6ddc549f6b2bf115db8be2bff" }
+    "verification_tokens": { "openai": "openai token from ChatGPT UI" }
   },
   "api": {
     "type": "openapi",
-    "url": "https://todo-plugin.herokuapp.com/openapi.json",
+    "url": "http://localhost:3000/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "https://todo-plugin.herokuapp.com/logo.png",
-  "contact_email": "support@https://todo-plugin.herokuapp.com",
-  "legal_info_url": "https://todo-plugin.herokuapp.com/legal"
+  "logo_url": "http://localhost:3000/logo.png",
+  "contact_email": "support@http://localhost:3000",
+  "legal_info_url": "http://localhost:3000/legal"
 }
